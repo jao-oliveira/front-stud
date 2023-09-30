@@ -1,0 +1,121 @@
+@media (max-width: 764px){
+
+    /*nav*/
+
+    .navbar-container{
+        width: 100%;
+        height: 80px;
+        background-color: #232a31;
+        padding: 0;
+      
+    }
+
+    .navbar-itens{
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    
+
+    .navbar-itens li{
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 10px;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    
+
+
+    /*BANNER*/
+        
+    .banner{
+        width: 100%;
+    }
+
+    .banner h1{
+        font-size: 40px;
+    }
+
+    .banner p{
+        font-size: 18px;
+    }
+
+    /*serviços*/
+    .services-container {
+        width: 100%;
+    }
+    
+
+    .services-container ul {
+       display: flex;
+       flex-direction: column;     
+    }
+    
+    
+    
+
+    /*planos*/
+
+    .plans-container{
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+       
+    
+        
+    }
+
+    .plan{
+        margin: 15px auto 0;
+        width: 100%;  
+      
+    }
+    
+
+
+    /*Dominio COntainer*/
+    
+
+    .dominio-container {
+        padding: 3rem 2rem;
+    }
+    .dominio-container h2{
+        font-size: 28px;
+    }
+    
+    .dominio-container input[type="text"] { 
+        width: 90%;
+    }
+
+    .dominio-container input {
+        width: 80%;
+    }
+
+
+
+
+    
+
+    /*contact*/
+
+    .contact{
+        padding: 3rem 2rem;
+    }
+
+    .contact input{
+        width: 90%;
+        padding: 5px 10px;
+        margin: 0 0 10px;
+    }
+
+
+    .contact form textarea {
+        width: 90%;
+        padding: 5px 10px;
+    }
+ 
+    
+
+
+}

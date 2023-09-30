@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/form_project/style.css">
+    <title>carros</title>
+</head>
+<body>
+    <div class="form-header">
+        <h3>Cadastre seu veiculo!</h3>
+    </div>
+    <div class="form-container">
+        <div class="form-head">
+            <p>formulário</p>
+        </div>
+       <div class="form-body">
+       
+        <h1 class="form-title">Venda fácil seu carro</h1>
+        
+       
+      
+            <form action="">
+                <p>Descreva as caracteristicar e marca do seu carro</p>
+                <div class="box-input" >
+                    <label for="title">
+                    <span>Título do anúncio *</span>
+                    <input 
+                    type="text" 
+                    name="title" 
+                    id="title" 
+                    placeholder="Um titulo para anunciar seu carro"
+                    minlength="1"
+                    maxlength="30"
+                    required
+                    >
+                
+                     </label>
+                </div>
+                
+                <div class="box-input" >
+                    <label for="preco">
+                    <span>Preço *</span>
+                    <input 
+                    type="text" 
+                    name="preco" 
+                    id="preco" 
+                    placeholder="Defina o prço do seu carro"
+                    minlength="1"
+                    maxlength="30"
+                    required
+                    >
+                
+                    </label>
+                </div>
+                
+                <div class="box-input" >
+                    <label for="description">
+                        <span name="description">Descrição *</span>
+                        <textarea
+                        type="text" 
+                        name="description" 
+                        id="description" 
+                        placeholder="Aqui você coloca detalhes do seu veiculo"
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        ></textarea>
+                 
+                    </label>
+                </div>
+
+                
+                <div class="box-input" >
+                    <label for="marca">
+                        <span name="marca">Marca *</span>
+                        <input
+                        type="text" 
+                        name="marca" 
+                        id="marca" 
+                        placeholder="Qual a marca?"
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        ></input>
+                 
+                    </label>
+                </div>
+
+                
+                <div class="box-input" >
+                    <label for="modelo">
+                        <span name="modelo">Modelo *</span>
+                        <input
+                        type="text" 
+                        name="modelo" 
+                        id="modelo" 
+                        placeholder="Qual modelo do seu carro?"
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        ></input>
+                 
+                    </label>
+                </div>
+
+                <div class="box-input" >
+                    <label for="Kilometragem">
+                        <span name="Kilometragem">Kilometragem *</span>
+                        <input
+                        type="number" 
+                        name="Kilometragem" 
+                        id="Kilometragem" 
+                        placeholder="Quantos KM tem seu carro"
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        ></input>
+                 
+                    </label>
+                </div>
+
+                
+                <div class="box-input" >
+                    <label for="data">
+                        <span name="data">Data de compra *</span>
+                        <input
+                        type="date" 
+                        name="data" 
+                        id="data" 
+                        minlength="1"
+                        maxlength="30"
+                        required
+                        ></input>
+                 
+                    </label>
+                </div>
+                
+                <div class="box-input" >
+                        <p>tipo de câmbio</p>
+                        <input type="radio"  name="manual" id="manual" required></input>
+                        <label name="manual">Manual</label>
+                       
+                        <input type="radio" name="automatico" id="automatico" required></input>
+                        <label for="automatico">Automático</label>  
+                </div>
+
+                <div class="optional-list">
+                    <div class="optional-box" >
+                        <p>Opcionais</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox"  name="manual" id="manual" required></input>
+                                <label name="manual">Airbag</label>
+                            </li>
+                            <li>
+                                <input type="checkbox"  name="manual" id="manual" required></input>
+                                <label name="manual">Teto solar</label>
+                            </li>
+                            <li>
+                                <input type="checkbox"  name="ar" id="ar" required></input>
+                                <label name="ar">AR</label>
+                            </li>
+                           
+                        </ul>
+                        
+                </div>
+                <div class="optional-box" >
+                    <ul>
+                        <li>
+                            <input type="checkbox"  name="banco-couro" id="banco-couro" required></input>
+                            <label name="banco-couro">Banco de couro</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"  name="Multimidia" id="Multimidia" required></input>
+                            <label name="manual">Multimídia</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"  name="rodas" id="rodas" required></input>
+                            <label name="rodas">Rodas de liga leve</label>
+                        </li>
+                    </ul>
+
+                </div>
+                </div>
+                
+
+            <div class="box-input" >
+                <p>fotos do seu carro</p>
+                <input type="file" multiple accept="image/png, image/jpg" required></input>
+        </div>
+
+                
+                
+                <input type="submit" value="Enviar" class="btn-submit">
+            </form>
+        
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

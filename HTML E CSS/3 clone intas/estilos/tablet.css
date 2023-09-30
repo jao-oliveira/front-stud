@@ -1,0 +1,51 @@
+@media (max-width:900px){
+    footer{
+        width: 90%;
+    }
+
+
+    #footer-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+ 
+}
+
+
+@media (max-width:768px){
+    body{
+        background-color: #fff;
+    }
+  
+    #banner-container{
+        display:none;
+    }
+
+   
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container{
+        border: none;
+        margin: 0 auto;
+    }
+    #form-container{
+        width: 100%;
+        
+    }
+
+    footer{
+        width: 90%;
+    }
+
+
+    #footer-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+ 
+}

@@ -1,0 +1,382 @@
+
+/*configurações gerais*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Nunito:wght@200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+
+}
+
+
+h1, h2, h3, h4{
+    color: #333;
+}
+
+p{
+    color: #70747a;
+}
+
+/*navbar*/
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    }
+
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+
+.navbar-itens{
+    display: flex;
+    right: 100px;
+    display: inline-block;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+.navbar-itens a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar-itens a:hover{
+    color: #eeeeee;
+}
+
+.defalt-btn{
+    background-color:  #2cc76a;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    transition: 0.3;
+}
+.defalt-btn:hover{
+    background-color: #00ff66cb;
+    color: #fff;
+}
+
+/*MAiN*/
+
+.banner{
+    background-image: url("/Projeto_2/imgs/mainbanner.png");
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1,
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+    
+}
+
+.banner h1{
+    font-size: 64px;
+}
+
+.banner p{
+    font-size: 32px;
+}
+
+/*SERVICES*/
+
+.services-container{
+    padding:  0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color:  #2cc76a;
+}
+
+.fa-rocket{
+    color: rgb(255, 50, 50);
+}
+
+.fa-comments{
+    color: rgb(255, 178, 35);
+}
+
+/*PLANOS*/
+
+
+.price-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.price-container h2{
+    font-size: 36px;
+}
+
+.price-container p{
+    font-size:20px;
+
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+
+.plan ul{
+    padding: 0;
+}
+
+
+.plan li{
+     list-style: none;
+     height: 50px;
+     line-height:50px;
+     background-color: #e8e9ea;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(0, 223, 85);
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 255, 0, 0.589);
+    background-color: #232a31;
+    padding: 50px 10px 25px 10px;
+
+}
+
+
+.plan .plan-btn{
+    background-color:rgb(0, 219, 84);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px;
+    padding: 15px 10px;
+    transition: 0.3s;
+
+}
+
+.plan .plan-btn:hover{
+    background-color: #00ff66;
+}
+
+.plan .plan-btn-recomended{
+    background-color: #f45c57;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    height: 75px;
+    line-height: 75px;
+    font-size: 20px;
+    padding: 15px 10px;
+    transition: 0.3s;
+
+}
+
+
+
+.plan .recomended{
+    background-color: #f45c57;
+}
+
+.plan .plan-btn-recomended:hover{
+    background-color: #ff3029;
+}
+
+/*procure o dominio*/
+
+.dominio-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.dominio-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.dominio-container p{
+    color: #b5b5b5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.dominio-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+.dominio-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.dominio-container input[type="submit"]{
+    background-color: #21dd6c;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.dominio-container input[type="submit"]:hover{
+    background-color: #00ff66;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*contact form*/
+
+.contact{
+    text-align: center;
+    padding: 5rem 0rem 2rem 0;
+}
+
+
+.contact h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact input,
+.contact textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+
+.contact form textarea{
+   display: block;
+   margin: 0 auto 20px;
+   width: 470px;
+   height: 150px;
+}
+
+
+
+
+.contact input[type="submit"]{
+    background-color: #21dd6c;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.contact input[type="submit"]:hover{
+    background-color: #00ff66;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/*footer*/
+
+.rodape{
+    font-weight: bold;
+    padding: 5rem 0rem 5rem 0rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+   
+}
+
+
+

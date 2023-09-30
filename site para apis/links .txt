@@ -1,0 +1,8 @@
+
+apis GRATUITAS
+rapidapi.com/hub
+
+https://swagger.io/
+
+SITE HOSPEDAGEM
+https://vercel.com/

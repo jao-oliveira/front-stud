@@ -1,0 +1,6 @@
+@media (max-width:450px) {
+    .container{
+       flex-wrap: wrap;
+       padding: 8rem 2rem 2rem;
+    }
+}
